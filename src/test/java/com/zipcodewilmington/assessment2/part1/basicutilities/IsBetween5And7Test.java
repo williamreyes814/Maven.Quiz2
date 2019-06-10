@@ -23,13 +23,11 @@ public class IsBetween5And7Test {
 
     @Test
     public void test3() {
-        test(5, true);
+        test(5, false);
     }
 
     @Test
-    public void test4() {
-        test(7, true);
-    }
+    public void test4() { test(7, false);}
 
     private void test(Integer valueToEvaluate, boolean expectedOutcome) {
         // given
